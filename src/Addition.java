@@ -4,10 +4,8 @@ public class Addition extends Operation {
         super(firstValue, secondValue);
     }
 
-    private double result = getFirstValue() + getSecondValue();
-
     @Override
     public void execute() {
-        System.out.println("Сумма равна: " + result);
+        System.out.println("Сумма равна: " + (getFirstValue() + getSecondValue()));
     };
 }

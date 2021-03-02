@@ -4,10 +4,8 @@ public class Multiplication extends Operation {
         super(firstValue, secondValue);
     }
 
-    private double result = getFirstValue() * getSecondValue();
-
     @Override
     public void execute() {
-        System.out.println("Результат: " + result);
+        System.out.println("Результат: " + (getFirstValue() * getSecondValue()));
     };
 }
