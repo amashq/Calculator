@@ -1,6 +1,6 @@
 public class Subtraction extends Operation {
 
-    public Subtraction(double firstValue, double secondValue) {
+    Subtraction(double firstValue, double secondValue) {
         super(firstValue, secondValue);
     }
 

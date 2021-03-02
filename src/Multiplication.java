@@ -1,6 +1,6 @@
 public class Multiplication extends Operation {
 
-    public Multiplication(double firstValue, double secondValue) {
+    Multiplication(double firstValue, double secondValue) {
         super(firstValue, secondValue);
     }
 

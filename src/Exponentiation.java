@@ -1,6 +1,6 @@
 public class Exponentiation extends Operation {
 
-    public Exponentiation(double firstValue, double secondValue) {
+    Exponentiation(double firstValue, double secondValue) {
         super(firstValue, secondValue);
     }
 

@@ -1,6 +1,6 @@
 public class Division extends Operation {
 
-    public Division(double firstValue, double secondValue) {
+    Division(double firstValue, double secondValue) {
         super(firstValue, secondValue);
     }
 
